@@ -1,0 +1,13 @@
+
+version: '3'
+
+services:
+  cyd_project-container:
+    image: cyd_project:v1.0.0
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/cyd_project-container
+    ports:
+      - "8080:8080"
