@@ -10,4 +10,8 @@ resource "aws_instance" "cyd_ec2" {
   tags = {
     Name = "cyd_ec2-instance"
   }
+  root_block_device {
+    volume_type = "gp2"
+    volume_size = var.root_ebs_volume_size
+  }
 }
