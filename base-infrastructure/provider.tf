@@ -23,6 +23,11 @@ variable "instance_type" {
   default = "t2.medium"
 }
 
+variable "root_ebs_volume_size" {
+  default =  50
+  type    = number
+}
+
 variable "vpc_id" {
   type = string
   default = "aws_vpc.cyd.id"
