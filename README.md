@@ -1,2 +1,1 @@
-# Deploying an Application in EKS behind ELB, sending logs to ElasticSearch cluster and Continuous Integration with Jenkins!
-nnwnvv is  v vIWWV
+# Deploying an Application in EKS behind ELB, sending logs to ElasticSearch cluster and Continuous Integration with Jenkins.
