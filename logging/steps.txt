@@ -1,4 +1,6 @@
 ##################### Create ES & EKS cluster ##################################
+** Readers are advised to create the EKS cluster with Terraform.
+
 ## Create EKS cluster
 eksctl create cluster --name cyd-cluster2 --node-type t2.large --nodes 1 --nodes-min 1 --nodes-max 2 --region us-east-1 --zones=us-east-1a,us-east-1b,us-east-1c
 
